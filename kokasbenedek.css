@@ -1,0 +1,203 @@
+body{
+	font-family:'Georgia', sans-serif;
+	background-image: url('wallpaper.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+.lec{
+
+	background-image: linear-gradient(to right, white, rgba(44,184,219,0.9));
+	display: block;
+	padding: 1.5rem 0rem 1rem;
+	margin: 0rem;
+}
+
+.gomb{
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	background-color: #F8F8FF;
+	display: inline-block;
+	padding: .8rem 2rem;
+	margin:1rem;
+	border-radius: 10px 10px 10px 10px;
+	transition: .3s;
+	min-width: max-content;
+
+}
+
+.gomb:hover{
+	cursor:pointer;
+	background-color: #e6e6e6;
+}
+
+.gomb_jobbra{
+	float: right;
+
+}
+
+.clearfix::after{
+	content: "";
+	clear:both;
+	display: table;
+}
+
+.kepkeret {
+	width: 375px;
+	float: left;;
+	padding: 0px 0px 0px 0px;
+	margin-left: 10px;
+	border-radius: 25px;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px gray;  
+	border: 5px solid rgb(255, 255, 255);
+	font-style: italic;
+  }
+
+  .kepkeret img{
+  width: 400px;
+  position: relative;
+  
+ 
+}
+
+.szoveg{
+	color: rgb(255, 255, 255);
+	text-shadow: 3px 3px gray;
+	font-size: 100px;
+	text-align: justify;
+	padding-top: 250px;
+	margin-left: 500px;
+}
+
+.en{
+	width: 880px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	padding: 35px;
+	color: #059ad4;
+	background-image: linear-gradient(to right, white, rgba(44,184,219,0.9));
+
+}	
+
+.linkek{
+
+	padding-top: 150px;
+  }
+
+.img:hover {
+	box-shadow: 0 0 2px 4px rgba(0, 140, 186, 0.5);
+}
+
+
+
+.fejsor{
+    text-align: center;
+    background-color:  #fc5c00;
+    color: #E7E7FF; 
+}
+
+table{
+    box-shadow: 5px 5px 7px #ffffff;
+	background-image: linear-gradient(to right, white, rgba(44,184,219,0.9));
+	color: #059ad4;
+	margin: auto;
+	margin-top: 100px;
+}
+
+td{
+    border: 2px line #ffffff;
+    padding: 5px 20px 5px;
+	
+}
+
+.elso{
+	max-width:800px ;
+	padding-top: 50px;
+	margin: auto;
+
+
+}
+
+.elsoszoveg{
+	width: 880px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	padding: 35px;
+	color: #059ad4;
+	background-image: linear-gradient(to right, white, rgba(44,184,219,0.9));
+	
+}
+
+.masodik{
+	max-width:800px ;
+	padding-top: 150px;
+	margin: auto;
+
+
+}
+
+.masodikszoveg{
+	width: 880px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	padding: 35px;
+	color: #059ad4;
+	background-image: linear-gradient(to right, white, rgba(44,184,219,0.9));
+}
+
+.harmadik{
+	max-width:800px ;
+	padding-top: 150px;
+	margin: auto;
+
+}
+
+.harmadikszoveg{
+	width: 880px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	padding: 35px;
+	color: #059ad4;
+	background-image: linear-gradient(to right, white, rgba(44,184,219,0.9));
+}
+
+.negyedikszoveg{
+	width: 880px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	padding: 35px;
+	color: #059ad4;
+	background-image: linear-gradient(to right, white, rgba(44,184,219,0.9));
+}
+
+
+
